@@ -91,9 +91,7 @@ export default function Projects() {
               ))}
             </div>
 
-            <a
-              href={p.link}
-              target="_blank"
+            <a href={p.link} target="_blank" rel="noreferrer"
               className="inline-block mt-2 px-5 py-2 rounded-xl border border-cyan-300/40
               hover:bg-cyan-400/20 transition"
             >

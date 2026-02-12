@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Social Icons */}
         <div className="flex justify-center gap-8 mb-8">
-          <a href="https://github.com/007sabari" target="_blank"
+          <a href="https://github.com/007sabari" target="_blank" rel="noreferrer"
             className="hover:text-white transition transform hover:-translate-y-2">
             <AiOutlineGithub size={30} />
           </a>

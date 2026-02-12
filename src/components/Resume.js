@@ -56,9 +56,7 @@ export default function Resume() {
 
             {/* Buttons */}
             <div className="flex gap-4 justify-center md:justify-start">
-              <a
-                href={resumePDF}
-                target="_blank"
+              <a href={resumePDF} target="_blank" rel="noreferrer"
                 className="px-6 py-3 rounded-xl font-semibold
                 bg-gradient-to-r from-purple-500 to-blue-500 
                 shadow-lg hover:opacity-90 transition"
