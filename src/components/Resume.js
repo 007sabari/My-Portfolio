@@ -1,4 +1,4 @@
-import resumePDF from "../assets/Sabari's-resume.pdf";
+import resumePDF from "src/assets/Sabari's-resume.pdf";
 import ResumeImg from "../assets/resume.jpg";
 
 export default function Resume() {
